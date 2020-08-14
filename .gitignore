@@ -1,3 +1,5 @@
 .ipynb_checkpoints
 *.zarr/
 __pycache__
+dask-worker-space/
+notebooks/mydask.png
