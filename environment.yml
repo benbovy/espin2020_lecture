@@ -1,0 +1,30 @@
+name: fastscape-espin2020
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - numpy
+  - pandas<1.1     # issue with Holoviews slider datetime type
+  - dask
+  - dask-labextension
+  - xarray
+  - xarray-simlab=0.4.1
+  - fastscapelib-f2py=2.8.1     # fastscape not yet updated for p_mfd_exp in 2.8.2
+  - jupyter
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - matplotlib<3.3    # depreciation warning in Holoviews
+  - graphviz
+  - python-graphviz
+  - numba
+  - ipywidgets
+  - hvplot
+  - datashader
+  - zarr
+  - tqdm
+  - nodejs
+  - pip
+  - pip:
+      - fastscape
